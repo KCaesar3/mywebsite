@@ -1,5 +1,22 @@
-/* My Styles */
-
-body {
-    background: lightgray;
-}
+:root {
+    --content-width: 50ch;
+    --inset: calc( -1 * (100vw - var(--content-width)) / 4 );
+  }
+  
+  .header,
+  .main {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: var(--content-width);
+  }
+  
+  
+  body {
+    padding: 1rem;
+  }
+  
+  .main {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: var(--content-width);
+  }
